@@ -1,0 +1,28 @@
+.person {
+    position: absolute;
+    bottom: 64px;
+    left: 64px;
+    display: block;
+    background: url("../../../public/rado-looking.png");
+    background-size: 256px 256px;
+    width: 256px;
+    height: 256px;
+    transition: 1s ease-in-out;
+}
+
+.person:hover {
+    background: url("../../../public/rado-reading.png");
+}
+
+.bio:after {
+    transition: 2s ease-in-out;
+    transition-delay: 2s;
+}
+
+.bio {
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: start;
+}

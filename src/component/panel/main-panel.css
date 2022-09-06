@@ -1,0 +1,39 @@
+
+.app_top_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu_bar {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 64px;
+    margin-top: 64px;
+    letter-spacing: -5px;
+    line-height: 75%;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 2em;
+}
+
+.main-container {
+    position: absolute;
+    left: 64px;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: start;
+}
+
+.main-container-start-button {
+    position: absolute;
+    left: 50%;
+    bottom: 64px;
+    cursor: pointer;
+    transform: translate(-50%, 0);
+    text-align: center;
+}

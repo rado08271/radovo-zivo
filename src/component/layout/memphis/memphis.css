@@ -1,0 +1,40 @@
+#rectangle-gradient,
+#box-3d,
+#curved-line,
+#bolt,
+#triangle-empty,
+#dots,
+#ring-half-blue,
+#torx,
+#hoop-volleyball,
+#triangle-solid,
+#scribbles,
+#erb,
+#arch,
+#circle-empty,
+#chevrons,
+#weird-chrome,
+#bathroom {
+    transition: 2s ease-in-out;
+}
+
+#rectangle-gradient:hover,
+#box-3d:hover,
+#curved-line:hover,
+#bolt:hover,
+#triangle-empty:hover,
+#dots:hover,
+#ring-half-blue:hover,
+#torx:hover,
+#hoop-volleyball:hover,
+#triangle-solid:hover,
+#scribbles:hover,
+#erb:hover,
+#arch:hover,
+#circle-empty:hover,
+#chevrons:hover,
+#weird-chrome:hover,
+#bathroom:hover {
+    transform: scale(1.04);
+    opacity: 0.5;
+}
