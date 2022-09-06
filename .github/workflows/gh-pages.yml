@@ -21,9 +21,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 16.x
-    
+
     - name: Install NPM packages
-      run: npm install
+      run: npm install --legacy-peer-deps
     
     - name: Build project
       run: npm run build
