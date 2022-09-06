@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+env:
+  CI: false
+  process.env.CI: false
+
 jobs:
   build:
     name: Build
